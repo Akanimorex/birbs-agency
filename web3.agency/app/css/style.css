@@ -856,7 +856,7 @@ body {
     content: "";
 }
 .content__span--color {
-    color: #fbb818;
+    color: #99ff99;
     display: block;
 }
 .content__span--middle-size {
@@ -1425,7 +1425,7 @@ body {
 .btn--more:hover:after {
     border-color: #ad7f10;
 }
-.btn--fb:before {
+/* .btn--fb:before {
     background-color: #107cb5;
 }
 .btn--fb:after {
@@ -1438,7 +1438,23 @@ body {
 .btn--fb:active:after,
 .btn--fb:hover:after {
     border-color: #186891;
+} */
+
+.btn--ig:before {
+    background-color: #f58529;
 }
+.btn--ig:after {
+    border-color: #f58529;
+}
+.btn--ig:active:before,
+.btn--ig:hover:before {
+    background-color: #f58529;
+}
+.btn--ig:active:after,
+.btn--ig:hover:after {
+    border-color: #f58529;
+}
+
 .btn--twitter:before {
     background-color: #00ceff;
 }
